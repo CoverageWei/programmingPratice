@@ -2,59 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6906e595-439c-4e80-a0e2-d58cbaf2a7a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/BaseTest.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/BaseTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/String/JoinerTest.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/String/JoinerTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/String/SplitterTest.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/String/SplitterTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/cache/GuavaCacheDemo$1.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/cache/GuavaCacheDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/cache/GuavaCacheDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/cache/GuavaCacheDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/CollectionsTest.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/CollectionsTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/TestMaps$1.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/TestMaps$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/TestMaps.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/TestMaps.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$1.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$2.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$3.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$4.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$5.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$6.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$6.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$7.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$7.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$8.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$8.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/rateLimiter/SmoothBurstyDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/rateLimiter/SmoothBurstyDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/rateLimiter/SmoothWarmingUpDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/google/guaua/rateLimiter/SmoothWarmingUpDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/GetClassNameDemo$SubGetClassName.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/GetClassNameDemo$SubGetClassName.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/GetClassNameDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/GetClassNameDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/CountTask.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/CountTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ForkJoinTest.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ForkJoinTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/GenerateSnapshotTask.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/GenerateSnapshotTask.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/TestCollections.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/TestCollections.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest$2.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadTest$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadTest.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/TestBigDecimal.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/TestBigDecimal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/TestResourceBundle.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/TestResourceBundle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/ASyncAppSender$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/ASyncAppSender$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/ASyncAppSender.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/ASyncAppSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/Android.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/Android.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/CallBackDemo$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/CallBackDemo$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/CallBackDemo.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/CallBackDemo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/IMessage.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/IMessage.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/SyncAppSender.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/SyncAppSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$1.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$2.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$OOMObject.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$OOMObject.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/PSAllocTest.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/PSAllocTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestMinorGC.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestMinorGC.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestPretenureSizeThreshold.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestPretenureSizeThreshold.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestTenuringThreshold.class" afterPath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestTenuringThreshold.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/programming.iml" afterPath="$PROJECT_DIR$/programming.iml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/BaseTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/String/JoinerTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/String/SplitterTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/cache/GuavaCacheDemo$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/cache/GuavaCacheDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/CollectionsTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/TestMaps$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/collections/TestMaps.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/concurrent/TestListenableFuture.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/rateLimiter/SmoothBurstyDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/google/guaua/rateLimiter/SmoothWarmingUpDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/GetClassNameDemo$SubGetClassName.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/GetClassNameDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/CountTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ForkJoinTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/GenerateSnapshotTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/TestCollections.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadPoolExecutorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/MuitiThread/ThreadTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/TestBigDecimal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/TestResourceBundle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/ASyncAppSender$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/ASyncAppSender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/Android.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/CallBackDemo$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/CallBackDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/IMessage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/callback/demo1/SyncAppSender.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest$OOMObject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/MonitorTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/PSAllocTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestMinorGC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestPretenureSizeThreshold.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/ww/javase/jvm/TestTenuringThreshold.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/myres.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/myres_en_US.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/myres_zh_CN.properties" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,7 +71,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ww/javase/MuitiThread/ThreadTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+              <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
               <folding>
                 <element signature="e#830#1811#0" expanded="true" />
                 <element signature="e#1810#1811#0" expanded="true" />
@@ -87,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -153,6 +150,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="FullScreen" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -644,16 +642,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1514623866082</updated>
-      <workItem from="1514623872278" duration="322000" />
+      <workItem from="1514623872278" duration="387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322000" />
+    <option name="totallyTimeSpent" value="387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -670,7 +668,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -704,7 +702,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ww/javase/MuitiThread/ThreadTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="47" column="21" lean-forward="true" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+          <caret line="47" column="21" lean-forward="false" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
           <folding>
             <element signature="e#830#1811#0" expanded="true" />
             <element signature="e#1810#1811#0" expanded="true" />
@@ -715,7 +713,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
