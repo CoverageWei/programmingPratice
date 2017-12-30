@@ -57,3 +57,5 @@ hs*.log
 *.ipr
 *.iws
 *.orig
+misc.xml
+workspace.xml
