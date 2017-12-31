@@ -16,7 +16,7 @@ public class NioDemo {
     public static void main(String[] args) {
 
         try {
-            nioCopyFile("/Users/weiwei/mac_setting/机器设置.rtfd", "/Users/weiwei/mac_setting/机器设置2.rtfd");
+            nioCopyFile("/Users/weiwei/mac_setting/linux 下文件夹区别.png", "/Users/weiwei/mac_setting/linux 下文件夹区别2.png");
         } catch (IOException e) {
             e.printStackTrace();
         }
