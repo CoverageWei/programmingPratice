@@ -31,7 +31,7 @@ public class NioServerBoss extends AbstractNioSelector implements Boss {
         if (selectedKeys.isEmpty()) {
             return;
         }
-        
+
         for (Iterator<SelectionKey> i = selectedKeys.iterator(); i.hasNext();) {
             SelectionKey key = i.next();
             i.remove();
@@ -44,12 +44,12 @@ public class NioServerBoss extends AbstractNioSelector implements Boss {
     		Worker nextworker = getSelectorRunnablePool().nextWorker();
     		// 注册新客户端接入任务
     		nextworker.registerNewChannelTask(channel);
-    		
+
     		System.out.println("新客户端链接");
         }
 	}
-	
-	
+
+
 	public void registerAcceptChannelTask(final ServerSocketChannel serverChannel){
 		 final Selector selector = this.selector;
 		 registerTask(new Runnable() {
@@ -64,7 +64,7 @@ public class NioServerBoss extends AbstractNioSelector implements Boss {
 			}
 		});
 	}
-	
+
 	@Override
 	protected int select(Selector selector) throws IOException {
 		return selector.select();
