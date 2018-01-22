@@ -11,28 +11,51 @@ import java.util.List;
 public class TestBigDecimal {
 
     public static void main(String[] args) {
-        testMulti();
+        testBase();
+//        testMulti();
     }
 
     private static void testBase() {
-        Long a =290L;
-        Long b = 300L;
-        BigDecimal result = new BigDecimal(1.0 * a/b).setScale(3, BigDecimal.ROUND_FLOOR);
-        System.out.println(result);
-        System.out.println(result.compareTo(new BigDecimal(0.01)) >= 0);
-        System.out.println(result.setScale(2,BigDecimal.ROUND_FLOOR));
+//        Long a =290L;
+//        Long b = 300L;
+//        BigDecimal result = new BigDecimal(1.0 * a/b).setScale(3, BigDecimal.ROUND_FLOOR);
+//        System.out.println(result);
+//        System.out.println(result.compareTo(new BigDecimal(0.01)) >= 0);
+//        System.out.println(result.setScale(2,BigDecimal.ROUND_FLOOR));
+//
+//        BigDecimal c = new BigDecimal("99.94");
+//        BigDecimal d = new BigDecimal("99.97");
+////        System.out.println(c.setScale(1, BigDecimal.ROUND_CEILING));
+//        System.out.println(c.setScale(1, BigDecimal.ROUND_HALF_UP));
+//        System.out.println(d.setScale(1, BigDecimal.ROUND_FLOOR));
+//
+//
+//        List<Long> ids = new ArrayList<Long>();
+//        ids.add(1L);
+//        System.out.println(ids);
+//        System.out.println(Arrays.asList(11));
 
-        BigDecimal c = new BigDecimal("99.94");
-        BigDecimal d = new BigDecimal("99.97");
-//        System.out.println(c.setScale(1, BigDecimal.ROUND_CEILING));
-        System.out.println(c.setScale(1, BigDecimal.ROUND_HALF_UP));
-        System.out.println(d.setScale(1, BigDecimal.ROUND_FLOOR));
+        BigDecimal userScore = new BigDecimal(85);
+        BigDecimal totalScore = new BigDecimal(100);
+        BigDecimal qualifiedPercent = new BigDecimal(64.45);
+        BigDecimal excellentPercent = new BigDecimal(80);
+        BigDecimal userCompareScore = userScore.multiply(new BigDecimal(100)).setScale(2, BigDecimal.ROUND_HALF_UP);
+        BigDecimal qualifiedScore = totalScore.multiply(qualifiedPercent).setScale(2, BigDecimal.ROUND_HALF_UP);
+        BigDecimal excellentScore = totalScore.multiply(excellentPercent).setScale(2, BigDecimal.ROUND_HALF_UP);
+
+        System.out.println(userCompareScore);
+        System.out.println(qualifiedScore);
+        System.out.println(excellentScore);
+
+        if(userCompareScore.compareTo(qualifiedScore) < 0) {
+            System.out.println(1);
+        } else if(userCompareScore.compareTo(excellentScore) < 0) {
+            System.out.println(2);
+        } else {
+            System.out.println(3);
+        }
 
 
-        List<Long> ids = new ArrayList<Long>();
-        ids.add(1L);
-        System.out.println(ids);
-        System.out.println(Arrays.asList(11));
     }
 
     private static void testMulti(){
