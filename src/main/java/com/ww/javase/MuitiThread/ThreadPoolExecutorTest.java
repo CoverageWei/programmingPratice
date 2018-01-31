@@ -131,22 +131,24 @@ public class ThreadPoolExecutorTest {
         System.out.println(page + "-" + i);
         return 1;
     }
+    private static class GenerateSnapshotTask implements Callable<Integer> {
+        private int first;
+        private int last;
+        private int[] d;
+        public GenerateSnapshotTask(int first, int last, int[] d) {
+            this.first = first;
+            this.last = last;
+            this.d = d;
+        }
+
+        @Override
+        public Integer call() throws Exception {
+            int subCount = 0;
+            for (int i = first; i <= last; i++) {
+                subCount += d[i];
+            }
+            return subCount;
+        }
+    }
 }
 
-class GenerateSnapshotTask implements Callable<Integer> {
-    private int first;
-    private int last;
-    private int[] d;
-    public GenerateSnapshotTask(int first, int last, int[] d) {
-        this.first = first;
-        this.last = last;
-        this.d = d;
-    }
-    public Integer call() throws Exception {
-        int subCount = 0;
-        for (int i = first; i <= last; i++) {
-            subCount += d[i];
-        }
-        return subCount;
-    }
-}
