@@ -30,7 +30,7 @@ public class TestThreadPool {
 
 
     public static void main(String[] args) {
-        ExecutorService es = new ThreadPoolExecutor(5, 5, 0L, TimeUnit.MILLISECONDS,
+        ExecutorService es = new ThreadPoolExecutor(30, 50, 0L, TimeUnit.MILLISECONDS,
                 new LinkedBlockingDeque<Runnable>()) {
             @Override
             protected void beforeExecute(Thread t, Runnable r) {
@@ -48,7 +48,7 @@ public class TestThreadPool {
             }
         };
 
-        for(int i = 0; i < 5; i++) {
+        for(int i = 0; i < 5000; i++) {
             MyTask myTask = new MyTask("task-" + i);
             es.execute(myTask);
             try {

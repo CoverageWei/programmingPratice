@@ -1,6 +1,9 @@
 package com.google.guaua.rateLimiter;
 
+import com.google.common.collect.Lists;
 import com.google.common.util.concurrent.RateLimiter;
+
+import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * 之前的限流方式都不能很好地应对突发请求，即瞬间请求可能都被允许从而导致一些问题；
@@ -14,10 +17,11 @@ import com.google.common.util.concurrent.RateLimiter;
 public class SmoothBurstyDemo {
     public static void main(String[] args) {
 //        rateLimiterTest1();
-        rateLimiterTest1_1();
+//        rateLimiterTest1_1();
 //        rateLimiterTest2();
 //        rateLimiterTest3();
 //        rateLimiterTest4();
+        rateLimiterTest5();
     }
 
     public static void acquire(RateLimiter limiter, Integer permits) {
@@ -188,5 +192,52 @@ public class SmoothBurstyDemo {
         System.out.println(String.format("##### %s cost: %s", 6, (end6 - end5)));
     }
 
+
+    /**
+     *   1526173949939
+         0.0                    // limiter.acquire(20)
+         1526173949940
+         ##### 1 cost: 1
+         3.95833                // 等待4s
+         0.197879
+
+     Process finished with exit code 0
+     */
+
+
+    /**
+     * 1526174035200
+     0.0                        // limiter.acquire(100)
+     1526174035201
+     ##### 1 cost: 1
+     19.959365
+     0.194271
+     */
+
+
+    /**
+     * 1526174153642
+     0.0
+     1526174153643
+     ##### 1 cost: 1
+     3.973415
+     0.194186
+     3.996075
+     */
+    public static void rateLimiterTest5(){
+
+        RateLimiter limiter = RateLimiter.create(5);
+
+        Long start = System.currentTimeMillis();
+        System.out.println(start);
+        System.out.println(limiter.acquire(20));
+        Long end = System.currentTimeMillis();
+        System.out.println(end);
+        System.out.println(String.format("##### %s cost: %s", 1, (end - start)));
+
+        System.out.println(limiter.acquire(1));
+        System.out.println(limiter.acquire(20));
+        System.out.println(limiter.acquire(1));
+    }
 
 }

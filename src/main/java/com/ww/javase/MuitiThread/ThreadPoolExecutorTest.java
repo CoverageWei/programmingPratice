@@ -46,7 +46,7 @@ public class ThreadPoolExecutorTest {
         System.out.println("start all...");
         List<Integer> counts = Arrays.asList(1,2,3,4,5);
 
-        for(int i = 0; i < 10 ; i++) {
+        for(int i = 0; i < 100 ; i++) {
             countOnePage2(i, counts);
         }
         System.out.println("finish all...");
